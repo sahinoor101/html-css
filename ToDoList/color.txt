@@ -1,0 +1,5 @@
+#17183b -- dark blue
+
+#846C5B -- Light Nav color
+
+#BEB7A4 -- Khaki

@@ -3,17 +3,21 @@
   margin: 0px;
   box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&family=Sixtyfour+Convergence&display=swap');
+
 #nav-div {
   min-width: 60%;
 }
 nav {
-  background-color: aliceblue;
+  background-color: #846c5b;
   display: flex;
   gap: 90px;
 }
 button {
   background-color: rgb(162, 195, 221);
-  border: none;
+  border: 2px solid white;
   border-radius: 100%;
   padding: 0.7em;
   margin-left: auto;
@@ -30,6 +34,7 @@ button:hover,
   padding: 10px;
   margin: 20px 0 20px 10px;
   background-color: rgb(162, 195, 221);
+  border: 2px solid white;
   border-radius: 25px;
 }
 .date {
@@ -40,28 +45,71 @@ button:hover,
   display: block;
   text-align: center;
   padding: 10px;
-  font-family: cursive;
-  font-size: 2em;
+  font-family: "Playwrite Hrvatska Lijeva";
+  font-size: 3em;
   color: rgb(3, 41, 41);
 }
-.list {
-  min-height: 80vh;
-  background-color: rgb(213, 216, 216);
-}
-.list div {
-  background-color: azure;
-  display: flex;
-  gap: 20px;
-  padding: 25px;
-  border: 1px solid;
-  
-}
-footer {
-  min-height: 50px;
-  background-color: blanchedalmond;
+
+.input {
   text-align: center;
-}
-footer p {
+  font-size: 2em;
   padding: 10px;
-  color: #000;
+  background-color: #BEB7A4;
 }
+#input-box {
+  width: 24em;
+    font-size: 30px;
+  }
+  
+  .list {
+    min-height: 70vh;
+    background-color: #d5d8d8;
+    border-radius: 50px;
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
+    padding: 25px;
+  }
+  section{
+    padding: 40px;
+    background-color: #46536277;
+  }
+  
+  .list p{
+    display: inline-block;
+    /* border: 2px solid #979B8D;
+    border-radius: 20px; */
+    font-size: 2rem;
+  }
+  .checkbox{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid black;
+  }
+  .checkbox:hover{
+    background-color: chartreuse;
+  }
+  .activity{
+    display: block;
+    margin-top: 10px;
+    width: 90%;
+    background-color: azure;
+    gap: 20px;
+    padding: 13px;
+  border: 2px solid #979B8D;
+  border-radius: 20px;
+  max-height: 4.5em;
+}
+
+footer {
+    min-height: 50px;
+    background-color: blanchedalmond;
+    text-align: center;
+  }
+  footer p {
+    padding: 10px;
+    color: #000;
+  }
