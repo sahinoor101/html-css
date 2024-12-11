@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    background: radial-gradient(circle,rgb(174 , 194 ,186 ), rgb(163 , 228 ,205 ));
+
+}
+nav {
+  min-height: 8vh;
+  background-color: grey;
+  text-align: center;
+}
+nav button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 30px;
+  border-radius: 50px;
+}
+nav button:hover{
+    background-color: rgb(78 , 95 ,102 );
+}
+nav button:focus{
+    background-color: rgb(4 , 23 ,34 );
+    border: 2px solid white;
+}
+nav button:active{
+    background-color: #fff;
+    color: #000;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+.column {
+  width: 200px;
+  display: inline-block;
+  background-color: rgb(87, 87, 117);
+  height: 70vh;
+  margin: 10px 10px;
+  padding-top: 76vh;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bolder;
+  border: 1px solid black;
+}
