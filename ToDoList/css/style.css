@@ -1,11 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&family=Sixtyfour+Convergence&display=swap');
+
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
-@import url("https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap");
-
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&family=Sixtyfour+Convergence&display=swap');
 
 #nav-div {
   min-width: 60%;
@@ -65,9 +66,6 @@ button:hover,
     min-height: 70vh;
     background-color: #d5d8d8;
     border-radius: 50px;
-    /* display: flex;
-    justify-content: center;
-    flex-wrap: wrap; */
     padding: 25px;
   }
   section{
@@ -77,8 +75,6 @@ button:hover,
   
   .list p{
     display: inline-block;
-    /* border: 2px solid #979B8D;
-    border-radius: 20px; */
     font-size: 2rem;
   }
   .checkbox{
@@ -89,9 +85,9 @@ button:hover,
     background-color: red;
     border: 1px solid black;
   }
-  .checkbox:hover{
+  /* .checkbox:hover{
     background-color: chartreuse;
-  }
+  } */
   .activity{
     display: block;
     margin-top: 10px;
@@ -103,7 +99,9 @@ button:hover,
   border-radius: 20px;
   max-height: 4.5em;
 }
-
+.green{
+  background-color: greenyellow;
+}
 footer {
     min-height: 50px;
     background-color: blanchedalmond;
@@ -113,3 +111,36 @@ footer {
     padding: 10px;
     color: #000;
   }
+
+
+
+
+
+
+/* dark mode tweaks */
+
+.nav_dark{
+  background-color: rgb(77 , 80 ,101 );
+  display: flex;
+  gap: 90px;
+}
+@media (prefers-color-scheme :dark){
+  .date{
+    background-color: brown;
+    color: white;
+  }
+  #date{
+    color: white;
+  }
+  .input{
+    background-color: rgb(153, 153, 209);
+  }
+  .list
+  {
+    background-color: darkgray;
+  }
+  .activity{
+    color: beige;
+    background-color: blueviolet;
+  }
+}

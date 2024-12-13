@@ -7,12 +7,11 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav>
+    <nav >
       <div id="nav-div">
-        <a class="nav_a" href="#">home</a>
-        <a class="nav_a" href="#">calendar</a>
+        <a class="nav_a" href="calendar.html">calendar</a>
       </div>
-      <button id="mode">Darkmode</button>
+      <button id="mode" onclick="darkmode()">Darkmode</button>
     </nav>
     <hr />
     <main>
@@ -26,15 +25,15 @@
       <section>
         <div class="list">
           <div class="activity">
-            <div class="checkbox"></div>
+            <div onclick="checked(this)"  class="checkbox"></div>
             <p>Do your Homeworks</p>
           </div>
           <div class="activity">
-            <div class="checkbox"></div>
+            <div onclick="checked(this)"  class="checkbox"></div>
             <p>Do your Homeworks</p>
           </div>
           <div class="activity">
-            <div class="checkbox"></div>
+            <div onclick="checked(this)" class="checkbox" ></div>
             <p>Do your Homeworks</p>
           </div>
         </div>
